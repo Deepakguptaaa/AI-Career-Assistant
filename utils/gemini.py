@@ -242,3 +242,92 @@ Resume:
     )
 
     return response.text
+
+# -----------------------------
+# Career Toolkit
+# -----------------------------
+
+def generate_career_content(
+    resume_text,
+    tool_type,
+    company_name="",
+    job_role=""
+):
+
+    if tool_type == "Recruiter Email":
+
+        prompt = f"""
+You are a professional HR Recruiter.
+
+Using this resume, write a professional job application email.
+
+Company:
+{company_name}
+
+Job Role:
+{job_role}
+
+Resume:
+{resume_text}
+
+Return:
+
+Subject:
+
+Email:
+"""
+
+    elif tool_type == "LinkedIn About":
+
+        prompt = f"""
+Create a professional LinkedIn About section.
+
+Requirements:
+- 200–250 words
+- Professional
+- ATS-friendly
+- Mention technical skills
+- Mention projects
+- End positively
+
+Resume:
+
+{resume_text}
+"""
+
+    elif tool_type == "Resume Headline":
+
+        prompt = f"""
+Generate 10 professional resume headlines.
+
+Resume:
+
+{resume_text}
+"""
+
+    elif tool_type == "Portfolio Description":
+
+        prompt = f"""
+Generate a professional portfolio description.
+
+Requirements:
+- Around 150 words
+- Mention AI, ML, Python
+- Mention projects
+- Mention career goals
+
+Resume:
+
+{resume_text}
+"""
+
+    else:
+
+        prompt = "Generate professional career content."
+
+    response = client.models.generate_content(
+        model="gemini-2.5-flash",
+        contents=prompt
+    )
+
+    return response.text

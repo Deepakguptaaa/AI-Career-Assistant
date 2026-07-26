@@ -6,6 +6,7 @@ from views.job_match_page import job_match_page
 from views.optimizer_page import optimizer_page
 from views.cover_letter_page import cover_letter_page
 from views.interview_page import interview_page
+from views.career_toolkit_page import career_toolkit_page
 
 # -----------------------------
 # Page Config
@@ -34,7 +35,8 @@ page = st.sidebar.radio(
         "🎯 Job Match",
         "✨ Resume Optimizer",
         "💌 Cover Letter",
-        "🎤 Interview Prep"
+        "🎤 Interview Prep",
+        "🚀 Career Toolkit"
     ]
 )
 
@@ -59,3 +61,6 @@ elif page == "💌 Cover Letter":
 
 elif page == "🎤 Interview Prep":
     interview_page()
+    
+elif page == "🚀 Career Toolkit":
+    career_toolkit_page()    
