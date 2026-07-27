@@ -1,167 +1,174 @@
-# 📄 AI Resume Analyzer Pro
+# 🚀 AI Career Assistant Pro
 
-An AI-powered Resume Analyzer built with **Python, Streamlit, and Google Gemini API** that helps job seekers improve their resumes using ATS-based analysis, job description matching, and AI-powered recommendations.
+An AI-powered career toolkit built with **Python**, **Streamlit**, and **Google Gemini AI** that helps students and professionals improve their resumes, optimize ATS scores, generate cover letters, prepare for interviews, and enhance their job applications.
 
 ---
 
-## 🚀 Features
+## ✨ Features
 
-- 📄 Upload Resume (PDF)
-- 🤖 AI Resume Analysis
-- 📊 ATS Score Dashboard
-- 📈 Interactive ATS Gauge Chart
-- 💪 Strengths & Weaknesses Analysis
-- 🛠 Technical Skills Detection
-- 🎯 Missing Skills Identification
-- 📚 Certification Recommendations
-- 🚀 AI Project Suggestions
-- 📋 Resume Improvement Suggestions
-- 🎯 Job Description Matching
-- 📄 Download Professional PDF Report
-- 🎨 Modern Streamlit Dashboard
+* 📄 Resume Analysis
+
+  * ATS Score
+  * Strengths & Weaknesses
+  * Technical Skills Detection
+  * Missing Skills Identification
+  * Improvement Suggestions
+
+* 🎯 Job Description Match
+
+  * Resume vs Job Description Comparison
+  * Match Score
+  * Missing Keywords
+  * ATS Optimization Tips
+
+* ✨ Resume Optimizer
+
+  * Rewrite Resume
+  * Improve Professional Language
+  * Strong Action Verbs
+  * ATS-Friendly Content
+
+* 💌 Cover Letter Generator
+
+  * Personalized Cover Letters
+  * Company Specific
+  * Role Specific
+
+* 🎤 Interview Preparation
+
+  * HR Questions
+  * Technical Questions
+  * AI/ML Interview Questions
+  * Project-Based Questions
+
+* 🚀 Career Toolkit
+
+  * LinkedIn Summary
+  * Resume Headline
+  * Professional Bio
+  * Recruiter Email
+
+* 📄 Download Professional PDF Reports
 
 ---
 
 ## 🛠 Tech Stack
 
-- Python
-- Streamlit
-- Google Gemini API
-- Plotly
-- ReportLab
-- PyPDF2
-- python-dotenv
+* Python
+* Streamlit
+* Google Gemini AI
+* ReportLab
+* Matplotlib
+* PyPDF2
+* python-dotenv
 
 ---
 
 ## 📂 Project Structure
 
-```
-AI-Resume-Analyzer/
-│
-├── assets/
-│   └── style.css
-│
-├── components/
-│   ├── charts.py
-│   └── dashboard.py
-│
-├── utils/
-│   ├── gemini.py
-│   ├── pdf_reader.py
-│   └── pdf_report.py
-│
-├── screenshots/
+```text
+AI-Career-Assistant/
 │
 ├── app.py
 ├── requirements.txt
 ├── README.md
-└── .gitignore
+├── .env.example
+│
+├── assets/
+├── components/
+├── utils/
+├── views/
+└── screenshots/
 ```
 
 ---
 
-## ⚙️ Installation
-
-### 1. Clone the Repository
+## ⚙ Installation
 
 ```bash
-git clone https://github.com/Deepakguptaaa/AI-Resume-Analyzer.git
-```
+git clone https://github.com/YOUR_USERNAME/AI-Career-Assistant.git
 
-### 2. Open the Project
+cd AI-Career-Assistant
 
-```bash
-cd AI-Resume-Analyzer
-```
-
-### 3. Create a Virtual Environment
-
-Windows
-
-```bash
-python -m venv venv
-venv\Scripts\activate
-```
-
-Mac/Linux
-
-```bash
-python3 -m venv venv
-source venv/bin/activate
-```
-
-### 4. Install Dependencies
-
-```bash
 pip install -r requirements.txt
-```
 
-### 5. Create a `.env` File
-
-```env
-GEMINI_API_KEY=YOUR_API_KEY
-```
-
-### 6. Run the Application
-
-```bash
 streamlit run app.py
 ```
 
 ---
 
-## 📷 Screenshots
+## 🔑 Environment Variables
 
-### Home Page
+Create a `.env` file.
 
-(Add Screenshot Here)
-
-### Resume Analysis
-
-(Add Screenshot Here)
-
-### ATS Dashboard
-
-(Add Screenshot Here)
-
-### Job Match Analysis
-
-(Add Screenshot Here)
+```env
+GEMINI_API_KEY=YOUR_API_KEY
+```
 
 ---
 
-## 📌 Upcoming Features
+## 📌 Future Improvements
 
-- AI Resume Optimizer
-- AI Cover Letter Generator
-- AI Interview Preparation
-- Resume Keyword Optimizer
-- Skills Visualization Charts
-- Resume Version Comparison
-- Export to DOCX
-- Deploy on Streamlit Cloud
-- AI Cover Letter Generator
-- Interview Preparation
-- Skill Gap Analysis
-- Resume Templates
+* Multi-language Resume Analysis
+* Resume Templates
+* LinkedIn Profile Analyzer
+* AI Career Roadmap
+* Salary Prediction
+* Job Recommendation System
+* Cloud Database Integration
 
 ---
 
 ## 👨‍💻 Author
 
-**Deepak Gupta**
+Deepak Gupta
 
-B.Tech (AI & ML)
+B.Tech Artificial Intelligence & Machine Learning
 
-Frontend Developer | AI/ML Enthusiast | Python Developer
-
-GitHub: https://github.com/Deepakguptaaa
-
-LinkedIn: (Add Your LinkedIn Profile)
+Amity University Gurugram
 
 ---
 
-## ⭐ Support
+⭐ If you like this project, consider giving it a star.
 
-If you found this project useful, consider giving it a ⭐ on GitHub.
+## 📸 Application Preview
+
+### Dashboard
+
+![Dashboard](assets/screenshots/dashboard.png)
+
+---
+
+### Resume Analysis
+
+![Resume Analysis](assets/screenshots/resume-analysis.png)
+
+---
+
+### Job Match
+
+![Job Match](assets/screenshots/job-match.png)
+
+---
+
+### Resume Optimizer
+
+![Resume Optimizer](assets/screenshots/resume-optimizer.png)
+
+---
+
+### Cover Letter
+
+![Cover Letter](assets/screenshots/cover-letter.png)
+
+---
+
+### Interview Preparation
+
+![Interview Prep](assets/screenshots/interview-prep.png)
+
+---
+
+### Career Toolkit
+
+![Career Toolkit](assets/screenshots/career-toolkit.png)
