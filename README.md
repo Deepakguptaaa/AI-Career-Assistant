@@ -8,7 +8,7 @@ An AI-powered career toolkit built with **Python**, **Streamlit**, and **Google 
 
 **Try the application here:**
 
-https://your-app-name.streamlit.app
+https://ai-career-assistant-kwib985qr5ejuxmpfwzsat.streamlit.app/
 
 
 
