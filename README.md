@@ -4,6 +4,14 @@ An AI-powered career toolkit built with **Python**, **Streamlit**, and **Google 
 
 ---
 
+## 🌐 Live Demo
+
+**Try the application here:**
+
+https://your-app-name.streamlit.app
+
+
+
 ## ✨ Features
 
 * 📄 Resume Analysis
